@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar{
+    position: fixed;
+    min-width: 290px;  
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: 2px solid gray;
+}
+  
+header{
+    font-size: 20px;
+    margin: 2%;
+    text-align: center;
+  }
+
+#navbar a{
+    display: block;
+    padding: 10px 30px;
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#navbar li{
+    color: grey;
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+
+#main-doc{
+    margin-left: 25%;
+}
+
+#main-doc ul{
+  margin-left: 5%;
+  margin-top: 2%;
+}
+
+#main-doc header{
+    margin-top: 2%; fglgjperigeigepigee  
+}
+
+#main-doc code{
+    background-color: grey;
+    font-size: 14px;
+    margin-left: 5%;
+}
+
+@media (max-width:500px){
+    #main-doc{
+        font-size: 12px;
+    }
+}
